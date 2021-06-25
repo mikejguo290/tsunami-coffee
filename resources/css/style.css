@@ -94,8 +94,9 @@ nav li {
   margin-bottom: 7rem;
 }
 
+/* stop the map image from overflowing. set its width to 100% of its container. */
 .location img {
-
+  width: 100%;
 }
 
 footer {
