@@ -129,3 +129,8 @@ footer .container {
     display:none;
   }
 }
+
+/* media query that targets screen with width lower than 470px */
+@media only screen and (max-width:470px){
+  
+}
