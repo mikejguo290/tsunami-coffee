@@ -136,4 +136,9 @@ footer .container {
   .rating h1 {
     font-size:2rem;
   }
+  /* increase width of gallery image so they show across the entire width of page. set margin to 0 to ensure full span. */
+  .gallery img {
+    width: 100%;
+    margin:0;
+  }
 }
