@@ -73,8 +73,9 @@ nav li {
   align-items: center;
 }
 
+/* increase font-size with rem to equivalent to 40px. root font-size is 16px */
 .rating h1 {
-
+  font-size: 2.5rem;
 }
 
 .gallery img {
