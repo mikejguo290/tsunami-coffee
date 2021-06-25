@@ -14,7 +14,7 @@ body {
 .main {
   height: 30rem;
   padding-top: 1rem;
-  background-image:url('https://content.codecademy.com/courses/freelance-1/unit-5/tsunami-coffee/images/bg-photo.png');
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-5/tsunami-coffee/images/bg-photo.png');
   background-size: cover;
 }
 
@@ -113,6 +113,10 @@ footer .container {
 }
 
 /* write a media query that targets screen under 960px */
+
 @media only screen and (max-width: 960px) {
-  
+  /* eliminate the empty space above navigation when screen size fits criteria.*/
+  .main {
+    padding-top: 0;
+  }
 }
