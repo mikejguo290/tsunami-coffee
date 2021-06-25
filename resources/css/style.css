@@ -120,3 +120,9 @@ footer .container {
     padding-top: 0;
   }
 }
+
+/* media query for screens under 700px */
+
+@media only screen and (max-width:700px){
+  
+}
