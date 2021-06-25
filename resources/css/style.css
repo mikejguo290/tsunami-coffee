@@ -141,4 +141,9 @@ footer .container {
     width: 100%;
     margin:0;
   }
+
+  /* hide the nav inside the footer which doesn't render properly on small screens. */
+  footer nav {
+    display: none;
+  }
 }
